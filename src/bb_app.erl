@@ -10,7 +10,7 @@
 %% -----------------------------------------------------------------------------
 
 start(_StartType, _StartArgs) ->
-	ok = bb_yaws:start_embedded(),
+    ok = bb_yaws:start_embedded(),
     bb_sup:start_link().
 
 stop(_State) ->

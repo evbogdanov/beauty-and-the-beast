@@ -3,4 +3,4 @@
 -export([out/1]).
 
 out(_Arg) ->
-	{html, "hello, beauty"}.
+    {html, "hello, beauty"}.

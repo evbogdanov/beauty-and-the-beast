@@ -23,14 +23,6 @@ init([]) ->
               intensity => 100,
               period    => 3600},
 
-    %% Worker = #{id       => WorkerMod,
-    %%            start    => {WorkerMod, start_link, []},
-    %%            restart  => permanent,
-    %%            shutdown => 2000,
-    %%            type     => worker,
-    %%            modules  => [WorkerMod]},
-
-    %% Children = [Worker],
     Children = [],
 
     {ok, {Flags, Children}}.
