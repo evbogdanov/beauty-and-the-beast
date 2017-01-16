@@ -1,0 +1,7 @@
+*.DS_Store
+*.beam
+/.rebar
+/test/logs
+/deps
+/ebin
+/priv/*.log

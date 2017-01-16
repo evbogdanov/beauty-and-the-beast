@@ -1,0 +1,8 @@
+{application, bb,
+ [{description, ""},
+  {vsn, "0.1.0"},
+  {registered, []},
+  {applications, [kernel,
+                  stdlib]},
+  {mod, {bb_app, []}},
+  {env, []}]}.

@@ -1,0 +1,11 @@
+{"src/*", [debug_info,
+           verbose,
+           warn_export_all,
+           warn_export_vars,
+           warn_format,
+           warn_obsolete_guard,
+           warn_shadow_vars,
+           warn_unused_import,
+           warn_unused_vars,
+           {i, "include"},
+           {outdir, "ebin"}]}.
